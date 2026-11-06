@@ -1,0 +1,20 @@
+{
+  "id": "movidesk",
+  "name": "Movidesk",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "description": "Movidesk tickets as a read-only source in Tasks.",
+  "icon": "IconHeadset",
+  "scope": "user",
+  "secrets": [
+    "MOVIDESK_TOKEN"
+  ],
+  "network": [
+    "api.movidesk.com"
+  ],
+  "contributes": [
+    "taskSources"
+  ],
+  "package": "https://github.com/victorl1m/floq-plugin-movidesk/releases/download/v1.0.0/movidesk-1.0.0.floqpkg.json",
+  "sha256": "9d4a1915b82997e787d978ada6ecb36da425b62ffcc69c8f52802fddb29feec7"
+}

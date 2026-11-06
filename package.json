@@ -1,0 +1,14 @@
+{
+  "name": "floq-plugin-movidesk",
+  "private": true,
+  "type": "module",
+  "description": "Movidesk tickets as a read-only task source in Floq's Tasks.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}
